@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <style>
+nav{
+    width: auto;
+    height: auto;
+    background-color: rgb(47, 79, 167);
+    padding: 2px 60px;
+    text-align: center;
+    list-style-type: none;    
+    overflow: hidden;
+}
+h1{
+    color: white;
+    right: 40%;
+    margin-top: auto;
+
+}
+.cart{
+    margin-right: 90%;
+    margin-top: -70%;
+    width: 3%;
+    height: 2%;
+}
+.contanir{
+    display: flex;
+    overflow: hidden;
+    height: auto;
+}
+img{
+    width: 300px;
+    height:50%;
+    margin-top: 20px;
+}
+
+
+.word{
+    position: absolute;
+    top: 35%;
+    right: 10%;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+
+}
+.word1{
+    position: absolute;
+    top: 40%;
+    right: 10%;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}
+.word2{
+    position: absolute;
+    top: 45%;
+    right: 10%;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}
+.word3{
+    position: absolute;
+    top: 70%;
+    right: 10%;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}
+.word4{
+    position: absolute;
+    top: 75%;
+    right: 10%;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}
+.word5{
+    position: absolute;
+    top: 80%;
+    right: 10%;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}
+.buy1{
+    background-color: #0080f7;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    position: absolute;
+    top: 85%;
+    right: 10%;
+    font-size: 30px;
+}
+button {
+    background-color: #0080f7;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    position: absolute;
+    top: 55%;
+    right: 10%;
+    font-size: 30px;
+}
+button:hover {
+    background-color: #00ffa2;
+}
+.price{
+    position: absolute;
+    top: 30%;
+    text-align: center;
+    font-size: 30px;
+}
+input {
+    width: 30%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.foot{
+    width: auto;
+    height: 90px;
+    background-color: rgba(113, 99, 99, 0.559);
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between ;
+}
+
+nav ul li {
+    display: inline-block;
+  }
+
+  nav ul li a {
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 20px 100px;
+    background-color: #708c9f;
+    text-decoration: none;
+  }
+
+  nav ul li a:hover {
+    background-color: #ddd;
+  }
+    form {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    }  
+    .id{
+        width: 10%;
+        position: absolute;
+         top: 45%;
+         right: 59%;
+         text-align: center;
+         font-size: 30px;
+         color: rgb(0, 0, 0);
+         background-color: rgb(179, 193, 207);
+    } 
+    .num{
+        width: 10%;
+        position: absolute;
+         top: 70%;
+         right: 59%;
+         text-align: center;
+         font-size: 30px;
+         color: rgb(0, 0, 0);
+         background-color: rgb(179, 193, 207);
+    } 
+</style>
+</head>
+<body>
+    <nav>
+        <h1 class="h1">Shopping Cart</h1>
+        <input type="text" id="Search" name="Search" placeholder="Search..." >
+        <div class="navtop">
+
+    <ul>     
+      <li><a href="#1">Shose</a></li>
+      <li><a href="#2">Clothes</a></li>
+      <li><a href="#3">T-Shirts</a></li>
+      <li><a href="#4">Whatches</a></li>
+    </ul>
+    </nav>
+    <div class="contanir1">
+        <div class="item1" id="1">
+        <img class="img" src="https://sneakernews.com/wp-content/uploads/2015/11/Air-Jordan-2011-11.jpg" alt="photo">
+        
+        <h1 class="word">(Air Jorden)EG-1300</h1>
+        <h1 class="word1">Made In New York</h1>
+        <h1 class="word2">Size (43)</h1>
+        <input type="number" class="id" placeholder="1234...">
+       <button type="button" class="buy">Check Out</button>
+       </div>
+       <div  class="image" id="2">
+        <img class="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQ6BDcHWmk4dPM0F0wG6TwANHj9kWg-12dzg&usqp=CAU" alt="photo">
+        
+        <h1 class="word3">(Starz⭐)EG-2300</h1>
+        <h1 class="word4">Made In German</h1>
+        <h1 class="word5">Size (37)</h1>
+        <input type="number" class="num"  placeholder="1234...">
+        <button type="submit" class="buy1">Check Out</button>
+       </div>
+    </div> 
+
+</body>
+</html>
